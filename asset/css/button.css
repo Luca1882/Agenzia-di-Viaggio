@@ -1,0 +1,21 @@
+.btn-acquista {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #0026b3, #4f6cff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-acquista:hover {
+    background: linear-gradient(135deg, #001a80, #3a52d1);
+    transform: scale(1.05);
+}
+
+.btn-acquista:active {
+    transform: scale(0.95);
+}

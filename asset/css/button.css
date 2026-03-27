@@ -1,4 +1,4 @@
-.btn-acquista {
+.mostra-itinerario {
     display: block;
     margin: 15px auto 0;
     padding: 10px 16px;
@@ -11,11 +11,11 @@
     transition: all 0.3s ease;
 }
 
-.btn-acquista:hover {
+.mostra-itinerario:hover {
     background: linear-gradient(135deg, #001a80, #3a52d1);
     transform: scale(1.05);
 }
 
-.btn-acquista:active {
+.mostra-itinerario:active {
     transform: scale(0.95);
 }

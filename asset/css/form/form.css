@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn-form {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #00a884;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    transition: background .25s;
+}
+
+.btn-form:hover {
+    background: #007a63;
+}
+
+.form-wrapper {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.form-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0026b3;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-box label {
+    font-weight: 600;
+}
+
+.form-box input,
+.form-box textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.btn-submit {
+    padding: 12px 20px;
+    background: #0026b3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .25s;
+}
+
+.btn-submit:hover {
+    background: #001a80;
+}
+
+.mostra-itinerario {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #0026b3, #4f6cff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mostra-itinerario:hover {
+    background: linear-gradient(135deg, #001a80, #3a52d1);
+    transform: scale(1.05);
+}
+
+.mostra-itinerario:active {
+    transform: scale(0.95);
+}
+
+body {
+    background-image: url(/asset/img/background/Impronte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
